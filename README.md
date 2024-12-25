@@ -70,32 +70,12 @@ El frontend proporciona una interfaz interactiva para que los usuarios puedan co
    - Al hacer clic en el botón "Ver Gráfico", se muestra un gráfico interactivo con los precios de la electricidad.  
    - Los datos del gráfico se obtienen dinámicamente de la API y se visualizan utilizando **Chart.js**.
 
+## Ejecución del Proyecto con Docker
 
-## Ejecución con Docker
+Puedes encontrar la explicación completa sobre cómo ejecutar este proyecto con Docker en el siguiente repositorio:
 
-Este proyecto se puede ejecutar fácilmente utilizando Docker y Docker Compose. Las imágenes necesarias ya están disponibles en Docker Hub, por lo que solo tienes que ejecutar el archivo `docker-compose.yml` en tu máquina.
+[Docker-Proyecto-API-Luz](https://github.com/zelh392/Docker-Proyecto-API-Luz)
 
-### Pasos para ejecutar el proyecto:
+En el repositorio encontrarás instrucciones detalladas sobre cómo clonar el proyecto, levantar los contenedores con Docker Compose y todo lo necesario para que el proyecto funcione sin problemas.
 
-1. Clona este repositorio:
-
-   ```bash
-   git clone https://github.com/zelh392/Docker-Proyecto-API-Luz.git
-   cd Docker-Proyecto-API-Luz
-
-
-
-### Explicación:
-
-- **`docker-compose up`** descargará las imágenes del contenedor desde tu Docker Hub y las levantará automáticamente.
-- Si hay actualizaciones de la imagen en Docker Hub, con **`docker-compose pull`** los usuarios pueden actualizar las imágenes antes de levantar los contenedores con **`docker-compose up`**.
-
-### Ventajas de este enfoque:
-
-- **Simplicidad**: Solo tienes un archivo `docker-compose.yml` en el repositorio.
-- **No duplicación de configuraciones**: Al descargar las imágenes desde Docker Hub, evitas tener que mantener diferentes archivos Docker Compose o duplicar configuraciones.
-- **Facilidad de uso**: Los usuarios simplemente ejecutan `docker-compose up` y todo se configura automáticamente.
-
-### Consideraciones adicionales:
-
-Este enfoque centraliza todo el proceso de despliegue y hace que sea muy fácil para cualquier persona probar el proyecto sin tener que construir las imágenes manualmente.
+¡Sigue los pasos allí indicados y empieza a usar el proyecto de manera rápida y sencilla!
