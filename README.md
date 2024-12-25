@@ -81,7 +81,7 @@ Este proyecto se puede ejecutar fácilmente utilizando Docker y Docker Compose. 
 
    ```bash
    git clone https://github.com/zelh392/Docker-Proyecto-API-Luz.git
-   cd proyecto-api-precio-luz
+   cd Docker-Proyecto-API-Luz
 
 
 
